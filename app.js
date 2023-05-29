@@ -3,7 +3,7 @@
 // need to create an array maybe an object of quotes and the authors
 
 window.onload = () => {
-    document.querySelector("#new-quote").addEventListener("click", () => {
+    document.querySelector("#bttn").addEventListener("click", () => {
       document.querySelector("#text").innerHTML = generateExcuse();
     });
     let generateExcuse = () => {
