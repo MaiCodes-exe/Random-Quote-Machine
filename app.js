@@ -11,7 +11,7 @@ window.onload = () => {
       let author = ["ate", "peed", "crushed", "broke"];
       
       let quoteIndex = Math.floor(Math.random() * who.length);
-      let actionIndex = Math.floor(Math.random() * action.length);
+      let authorIndex = Math.floor(Math.random() * action.length);
     
       return (
         quote[quoteIndex] +
