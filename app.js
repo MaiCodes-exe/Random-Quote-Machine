@@ -4,7 +4,7 @@
 
 window.onload = () => {
     document.querySelector("#new-quote").addEventListener("click", () => {
-      document.querySelector("#theExcuse").innerHTML = generateExcuse();
+      document.querySelector("#text").innerHTML = generateExcuse();
     });
     let generateExcuse = () => {
       let quote = ["The dog", "My grandma", "His turtle", "My bird"];
