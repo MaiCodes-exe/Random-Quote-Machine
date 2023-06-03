@@ -9,8 +9,8 @@ window.onload = () => {
 
     });
     let generateExcuse = () => {
-      let quote = ["The dog", "My grandma", "His turtle", "My bird"];
-      let author = ["ate", "peed", "crushed", "broke"];
+      let quote = ["“Believe you can and you’re halfway there.” – Theodore Roosevelt", "“Success is not final, failure is not fatal: it is the courage to continue that counts.” – Winston Churchill", "“We can’t help everyone, but everyone can help someone.” – Ronald Reagan"];
+      // let author = ["ate", "peed", "crushed", "broke"];
       
       let quoteIndex = Math.floor(Math.random() * quote.length);
       let authorIndex = Math.floor(Math.random() * author.length);
