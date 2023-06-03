@@ -16,6 +16,8 @@ window.onload = () => {
     "I am the master of my fate, I am the captain of my soul. – William Ernest Henley",
     "To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment. – Ralph Waldo Emerson",
     "It is not the strongest of the species that survive, nor the most intelligent, but the one most responsive to change. – Charles Darwin",
+    "I think, therefore I am. – René Descartes",
+    "To be or not to be, that is the question. – William Shakespeare",
     ];
       
       let quoteIndex = Math.floor(Math.random() * quote.length);
