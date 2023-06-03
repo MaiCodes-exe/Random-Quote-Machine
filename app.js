@@ -5,7 +5,6 @@
 window.onload = () => {
     document.querySelector("#new-quote").addEventListener("click", () => {
       document.querySelector("#quote").innerHTML = generateExcuse();
-      // document.querySelector("#author").innerHTML = generateExcuse();
 
     });
     let generateExcuse = () => {
