@@ -18,6 +18,8 @@ window.onload = () => {
     "It is not the strongest of the species that survive, nor the most intelligent, but the one most responsive to change. – Charles Darwin",
     "I think, therefore I am. – René Descartes",
     "To be or not to be, that is the question. – William Shakespeare",
+    "The only thing necessary for the triumph of evil is for good men to do nothing. – Edmund Burke",
+    
     ];
       
       let quoteIndex = Math.floor(Math.random() * quote.length);
